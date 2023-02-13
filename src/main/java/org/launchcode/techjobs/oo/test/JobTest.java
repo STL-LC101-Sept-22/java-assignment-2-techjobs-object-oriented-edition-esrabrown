@@ -64,8 +64,8 @@ public class JobTest {
 
         assertTrue(job1.contains("ID:"));
         assertTrue(job1.contains("Name:"));
-        assertTrue(job1.contains("Employer"));
-        assertTrue(job1.contains("Location"));
+        assertTrue(job1.contains("Employer:"));
+        assertTrue(job1.contains("Location:"));
         assertTrue(job1.contains("Position Type:"));
         assertTrue(job1.contains("Core Competency:"));
 
